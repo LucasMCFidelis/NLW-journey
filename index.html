@@ -11,6 +11,25 @@
     <script>dayjs.locale('pt-br')</script>
 </head>
 <body>
+    <form onsubmit="saveActivity(event)">
+        <div>
+            <input
+                type="text"
+                placeholder="Qual a atividade?"
+                name="activity"
+                required
+            >
+        </div>
+        <div>
+            <select name="day"></select>
+        </div>
+        <div>
+            <select name="hour"></select>
+        </div>
+
+        <button>Salvar atividade</button>
+    </form>
+
     <main>
         <h1>Atividades</h1>
         <section></section>
