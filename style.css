@@ -1,4 +1,41 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+input,
+select,
+button,
+option {
+    font-family: 'Inter', sans-serif;
     background-color: #09090B;
     color: #FAFAFA;
+}
+
+input,
+select {
+    all: unset;
+}
+
+#app {
+    padding: 2.5rem 1.25rem;
+    max-width: 320px;
+    margin: auto;
+}
+
+.field {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.field-wrapper {
+    display: flex;
+    padding: 1.12rem;
+    background-color: #09090B;
+    border: 1px solid #27272A;
+    border-radius: 0.5rem;
 }
